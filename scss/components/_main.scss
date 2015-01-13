@@ -1,0 +1,26 @@
+// Main
+
+body {
+	background-color: $background;
+	font-family: $helvetica;
+}
+
+.primary-btn {
+	@include button($primary, $primary-dark, #fff);
+}
+
+.secondary-btn {
+	@include button($secondary-dark, #666, #fff);
+}
+
+.border {
+	border: 1px solid #ccc;
+	 // you can nest elements/selectors to target them more specifically
+	 p {
+	 	color:red;
+	 }
+}
+
+ul{
+	@extend .border;
+}

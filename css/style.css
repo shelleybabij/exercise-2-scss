@@ -1,0 +1,49 @@
+/* This file imports all your scss partials to be compiled in one stylesheet,
+which you attach to your html.
+All the files that are prefixed with an underscore "_name-of-file.scss" are called
+partials - meaning that their css isn't compiled unless its imported into an
+unprefixed .scss file */
+/* are placeholders for storing information that you want to reuse throughout
+your styles. You can store things like colours, font-stacks, or any css
+value you think you might want to reuse. SCSS uses the '$' symbol to declare
+variables. */
+/* line 3, /Users/shelleybabij/Desktop/exercise-2-scss/scss/components/main */
+body {
+  background-color: #f5f5f5;
+  font-family: Helvetica, Arial, sans-serif; }
+
+/* line 8, /Users/shelleybabij/Desktop/exercise-2-scss/scss/components/main */
+.primary-btn {
+  background-color: #3498db;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  margin: 1em;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 150ms ease-in-out; }
+  /* line 13, /Users/shelleybabij/Desktop/exercise-2-scss/scss/mixins */
+  .primary-btn:hover {
+    background-color: #2980b9; }
+
+/* line 12, /Users/shelleybabij/Desktop/exercise-2-scss/scss/components/main */
+.secondary-btn {
+  background-color: #666;
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: 3px;
+  margin: 1em;
+  display: inline-block;
+  text-decoration: none;
+  transition: all 150ms ease-in-out; }
+  /* line 13, /Users/shelleybabij/Desktop/exercise-2-scss/scss/mixins */
+  .secondary-btn:hover {
+    background-color: #666; }
+
+/* line 16, /Users/shelleybabij/Desktop/exercise-2-scss/scss/components/main */
+.border, ul {
+  border: 1px solid #ccc; }
+  /* line 19, /Users/shelleybabij/Desktop/exercise-2-scss/scss/components/main */
+  .border p, ul p {
+    color: red; }
+

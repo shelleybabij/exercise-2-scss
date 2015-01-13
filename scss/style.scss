@@ -1,0 +1,14 @@
+/* This file imports all your scss partials to be compiled in one stylesheet,
+which you attach to your html.
+All the files that are prefixed with an underscore "_name-of-file.scss" are called
+partials - meaning that their css isn't compiled unless its imported into an
+unprefixed .scss file */
+
+// import mixins, variables and other modules (usually compass related)
+
+@import 'base';
+@import 'mixins';
+
+// Component rules
+
+@import 'components/main';

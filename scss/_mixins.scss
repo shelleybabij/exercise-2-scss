@@ -1,5 +1,5 @@
 //mixins
-
+/*
 @mixin button($bg-color, $hover-color, $text-color) {
 	background-color: $bg-color;
 	color: $text-color;
@@ -12,5 +12,13 @@
 	//references a parent selector using the '&'
 	&:hover {
 		background-color: $hover-color;
+	}
+}
+*/
+
+@mixin skull-color($initial-color, $hover-color) {
+	color: $primary-red;
+	&:hover {
+		color: $hover-orange;
 	}
 }

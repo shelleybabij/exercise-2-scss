@@ -38,7 +38,7 @@ a:active {
 	-webkit-animation: ship-fade-1 1s linear forwards;
 }
 
-@-webkit-keyframes ship-fade-1 {
+@-webkit-keyframes skull-fade-1 {
 	0% {
 		opacity: 0;
 		top: 20em;
@@ -51,10 +51,10 @@ a:active {
 }
 
 .js-skull-fade-2 {
-	-webkit-animation: ship-fade-2 1.5s linear forwards;
+	-webkit-animation: skull-fade-2 1.5s linear forwards;
 }
 
-@-webkit-keyframes ship-fade-2 {
+@-webkit-keyframes skull-fade-2 {
 	0% {
 		opacity: 0;
 		top: 17em;
